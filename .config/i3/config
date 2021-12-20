@@ -169,7 +169,7 @@ bar {
         status_command i3status
 }
 
-
+# --- BELOW SETTINGS ARE FOR MULTI SCREEN SETUP ONLY ---
 # SET WORKSPACES TO SCREEN
 workspace 1 output HDMI-0
 workspace 2 output HDMI-0
