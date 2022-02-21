@@ -100,9 +100,13 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias clr="clear"
-alias SSH1='~/scripts/google-cloud-server-script.sh'
-alias SSH2='~/scripts/aws-script.sh'
-alias commands='cat ~/.commands.txt'
+alias c="clear"
+alias SSH1="~/scripts/google-cloud-server-script.sh"
+alias SSH2="~/scripts/aws-script.sh"
+alias commands="cat ~/.commands.txt"
 alias sudp="sudo"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+alias ssh-closebuy="ssh airx@34.94.134.151"
+alias ssh-ivin="ssh airx@35.212.253.207"
+
 neofetch
