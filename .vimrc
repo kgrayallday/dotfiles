@@ -41,15 +41,15 @@ set background=dark
 " differently from regular Vi. They are highly recommended though.
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
-"set ignorecase		" Do case insensitive matching
-"set smartcase		" Do smart case matching
+set ignorecase		" Do case insensitive matching
+set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
 
-set tabstop=4 softtabstop=4
-set shiftwidth=4
+set tabstop=2 softtabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 set number
@@ -58,7 +58,6 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " IF YOU DONT SAVE YOUR FILES YOU WILL LOSE THEM
 set noswapfile
-
 
 " puts new split either below or to the right "
 set splitbelow splitright
